@@ -1,0 +1,147 @@
+analyzing log files
+====================
+
+list of files update in last 24 hours
+/home/loai/logs/application.log /home/loai/logs/system.log
+
+
+=========================================
+=========/home/loai/logs/application.log======
+=========================================
+
+list of Thread logs in /home/loai/logs/application.log
+
+Number of Thread logs in /home/loai/logs/application.log
+ERROR_COUNT
+
+
+=========================================
+=========/home/loai/logs/application.log======
+=========================================
+
+list of INFO logs in /home/loai/logs/application.log
+
+Number of INFO logs in /home/loai/logs/application.log
+ERROR_COUNT
+
+
+=========================================
+=========/home/loai/logs/application.log======
+=========================================
+
+list of DEBUG logs in /home/loai/logs/application.log
+
+Number of DEBUG logs in /home/loai/logs/application.log
+ERROR_COUNT
+
+
+=========================================
+=========/home/loai/logs/application.log======
+=========================================
+
+list of Kernel logs in /home/loai/logs/application.log
+Jun  1 22:20:05 secserv kernel: Kernel logging (proc) stopped.
+Jun  1 22:20:05 secserv kernel: Kernel log daemon terminating.
+Nov 27 08:05:57 galileo kernel: Kernel logging (proc) stopped.
+Nov 27 08:05:57 galileo kernel: Kernel log daemon terminating.
+
+Number of Kernel logs in /home/loai/logs/application.log
+ERROR_COUNT
+
+
+=========================================
+=========/home/loai/logs/system.log======
+=========================================
+
+list of Thread logs in /home/loai/logs/system.log
+[2010-04-24 07:51:55,331] DEBUG - [Thread-1] ODWSSessionKeeperThread.Run(): 
+[2010-04-24 07:51:55,862] DEBUG - [Thread-1] 
+[2010-04-24 07:51:55,862] DEBUG - [Thread-1] ODWSSessionKeeperThread.Run(): 
+[2010-04-24 07:51:55,862] DEBUG - [Thread-1] ODWSSessionKeeperThread.Run(): SOAP 
+[2010-04-24 07:51:55,862] DEBUG - [Thread-1] ODWSSessionKeeperThread.Run(): Going 
+[2010-04-24 07:52:01,284] DEBUG - [Thread-3] CSVDataSenderThread.run(): Thread 0 
+[2010-04-24 07:52:02,487]  INFO - [Thread-3] A response to the import data SOAP 
+[2010-04-24 07:52:02,487] DEBUG - [Thread-3] 
+[2010-04-24 07:52:02,487]  INFO - [Thread-3] A SOAP request containing import data 
+[2010-04-24 07:52:02,487] DEBUG - [Thread-3] CSVDataSenderThread.run(): There is no 
+more pending request to be picked up by Thread 0.
+[2010-04-24 07:52:02,487] DEBUG - [Thread-3] CSVDataSenderThread.run(): Thread 0 
+[2010-04-24 07:52:09,487] DEBUG - [Thread-1] ODWSSessionKeeperThread.Run(): 
+
+Number of Thread logs in /home/loai/logs/system.log
+ERROR_COUNT
+
+
+=========================================
+=========/home/loai/logs/system.log======
+=========================================
+
+list of INFO logs in /home/loai/logs/system.log
+[2010-04-24 07:51:54,393]  INFO - [main] Attempting to log in...
+[2010-04-24 07:51:55,081]  INFO - [main] Successfully logged in as: wchung/eric
+[2010-04-24 07:51:55,081]  INFO - [main] Validating Oracle Data Loader On Demand 
+[2010-04-24 07:51:55,331]  INFO - [main] A SOAP request was sent to the server to 
+[2010-04-24 07:51:56,862]  INFO - [main] A SOAP request was sent to the server to 
+[2010-04-24 07:52:01,268]  INFO - [main] A response to the SOAP request sent to 
+[2010-04-24 07:52:01,268]  INFO - [main] Oracle Data Loader On Demand Import 
+[2010-04-24 07:52:01,268]  INFO - [main] Submitting Oracle Data Loader On Demand 
+[2010-04-24 07:52:01,284]  INFO - [main] Import Request Submission Status: Started
+[2010-04-24 07:52:02,487]  INFO - [Thread-3] A response to the import data SOAP 
+[2010-04-24 07:52:02,487]  INFO - [Thread-3] A SOAP request containing import data 
+[2010-04-24 07:52:06,284]  INFO - [main] Import Request Submission Status: 100.00%
+[2010-04-24 07:52:07,284]  INFO - [main] Oracle Data Loader On Demand Import 
+[2010-04-24 07:52:07,300]  INFO - [main] Attempting to log out...
+[2010-04-24 07:52:09,487]  INFO - [main] oracle/oracle is now logged out.
+
+Number of INFO logs in /home/loai/logs/system.log
+ERROR_COUNT
+
+
+=========================================
+=========/home/loai/logs/system.log======
+=========================================
+
+list of DEBUG logs in /home/loai/logs/system.log
+[2010-04-24 07:51:54,393] DEBUG - [main] BulkOpsClient.main(): Execution begin.
+[2010-04-24 07:51:54,393] DEBUG - [main] BulkOpsClient.main(): List of all 
+[2010-04-24 07:51:54,393] DEBUG - [main] BulkOpsClient.main(): List of all options 
+[2010-04-24 07:51:55,081] DEBUG - [main] BulkOpsClient.doImport(): Execution begin.
+[2010-04-24 07:51:55,081] DEBUG - [main] FieldMappingManager.parseMappings(): 
+[2010-04-24 07:51:55,097] DEBUG - [main] FieldMappingManager.parseMappings(): 
+[2010-04-24 07:51:55,331] DEBUG - [Thread-1] ODWSSessionKeeperThread.Run(): 
+[2010-04-24 07:51:55,862] DEBUG - [Thread-1] 
+[2010-04-24 07:51:55,862] DEBUG - [Thread-1] ODWSSessionKeeperThread.Run(): 
+[2010-04-24 07:51:55,862] DEBUG - [Thread-1] ODWSSessionKeeperThread.Run(): SOAP 
+[2010-04-24 07:51:55,862] DEBUG - [Thread-1] ODWSSessionKeeperThread.Run(): Going 
+[2010-04-24 07:51:55,862] DEBUG - [main] 
+[2010-04-24 07:51:55,862] DEBUG - [main] There was an error sending the SOAP request 
+[2010-04-24 07:51:55,862] DEBUG - [main] BulkOpsClient.sendValidationRequest(): 
+[2010-04-24 07:52:01,268] DEBUG - [main] 
+[2010-04-24 07:52:01,268] DEBUG - [main] BulkOpsClient.sendValidationRequest(): 
+[2010-04-24 07:52:01,268] DEBUG - [main] BulkOpsClient.submitImportRequest(): 
+[2010-04-24 07:52:01,268] DEBUG - [main] BulkOpsClient.submitImportRequest(): 
+[2010-04-24 07:52:01,268] DEBUG - [main] CSVDataSender.CSVDataSender(): 
+[2010-04-24 07:52:01,268] DEBUG - [main] CSVDataSender.sendCSVData(): Creating 
+[2010-04-24 07:52:01,284] DEBUG - [main] CSVDataSender.sendCSVData(): Starting 
+[2010-04-24 07:52:01,284] DEBUG - [main] CSVDataSender.sendCSVData(): There are 
+[2010-04-24 07:52:01,284] DEBUG - [Thread-3] CSVDataSenderThread.run(): Thread 0 
+[2010-04-24 07:52:02,487] DEBUG - [Thread-3] 
+[2010-04-24 07:52:02,487] DEBUG - [Thread-3] CSVDataSenderThread.run(): There is no 
+[2010-04-24 07:52:02,487] DEBUG - [Thread-3] CSVDataSenderThread.run(): Thread 0 
+[2010-04-24 07:52:07,284] DEBUG - [main] BulkOpsClient.submitImportRequest(): 
+[2010-04-24 07:52:07,300] DEBUG - [main] BulkOpsClient.doImport(): Execution 
+[2010-04-24 07:52:09,487] DEBUG - [Thread-1] ODWSSessionKeeperThread.Run(): 
+[2010-04-24 07:52:09,487] DEBUG - [main] BulkOpsClient.main(): Execution complete.
+
+Number of DEBUG logs in /home/loai/logs/system.log
+ERROR_COUNT
+
+
+=========================================
+=========/home/loai/logs/system.log======
+=========================================
+
+list of Kernel logs in /home/loai/logs/system.log
+
+Number of Kernel logs in /home/loai/logs/system.log
+ERROR_COUNT
